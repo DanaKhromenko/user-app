@@ -43,7 +43,7 @@ public class AppConfig {
         properties.put("hibernate.dialect", environment.getProperty("hibernate.dialect"));
         localSessionFactoryBean.setHibernateProperties(properties);
 
-        localSessionFactoryBean.setPackagesToScan("mate.academy.model");
+        localSessionFactoryBean.setPackagesToScan("com.gmail.danadiadius");
 
         return localSessionFactoryBean;
     }
